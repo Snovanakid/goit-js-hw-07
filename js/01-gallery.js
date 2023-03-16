@@ -40,7 +40,7 @@ const handlerEventOpenImage = (event) => {
             gallery.removeEventListener('keydown', modalOnEscapeCloser);
         }
     }
-    gallery.addEventListener('keydown', modalOnEscapeCloser) 
+    gallery.addEventListener('keydown', modalOnEscapeCloser);
 }
 gallery.addEventListener('click', handlerEventOpenImage);
 

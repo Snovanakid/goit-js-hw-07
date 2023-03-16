@@ -18,16 +18,8 @@ const createGalleryMarkup = (galleryItems) => {
 const galleryMarkup = createGalleryMarkup(galleryItems);
 gallery.insertAdjacentHTML('afterbegin', galleryMarkup);
 
-// gallery.addEventListener('click', modalOpenImage) 
-
 new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
     scrollZoom: false,
 });
-    
-// function modalOpenImage(event) {
-//     event.preventDefault()
-    
-// }
-
